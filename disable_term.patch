@@ -1,0 +1,62 @@
+57,58c57,58
+< #define POSTSCRIPT_DRIVER 1	/* include post.trm */
+< #define PSLATEX_DRIVER 1	/* include pslatex.trm */
+---
+> //#define POSTSCRIPT_DRIVER 1	/* include post.trm */
+> //#define PSLATEX_DRIVER 1	/* include pslatex.trm */
+212c212
+< #include "canvas.trm"
+---
+> //#include "canvas.trm"
+215c215
+< #include "cgm.trm"
+---
+> //#include "cgm.trm"
+226c226
+< #include "dumb.trm"
+---
+> //#include "dumb.trm"
+239c239
+< #include "dxf.trm"
+---
+> //#include "dxf.trm"
+242c242
+< #include "emf.trm"
+---
+> //#include "emf.trm"
+250c250
+< #include "fig.trm"
+---
+> //#include "fig.trm"
+262c262
+< #include "hpgl.trm"
+---
+> //#include "hpgl.trm"
+313c313
+< #include "tkcanvas.trm"
+---
+> //#include "tkcanvas.trm"
+349c349
+< #include "pict2e.trm"
+---
+> //#include "pict2e.trm"
+357c357
+< #include "pstricks.trm"
+---
+> //#include "pstricks.trm"
+360c360
+< #include "texdraw.trm"
+---
+> //#include "texdraw.trm"
+363c363
+< #include "metafont.trm"
+---
+> //#include "metafont.trm"
+366c366
+< #include "metapost.trm"
+---
+> //#include "metapost.trm"
+369c369
+< #include "context.trm"
+---
+> //#include "context.trm"

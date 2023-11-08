@@ -85,7 +85,7 @@ function build {
   emmake make \
     CFLAGS="-Oz -flto" \
     CXXFLAGS="-Oz -flto" \
-    LDFLAGS="--js-transform $ROOT/apply_template.sh -sINVOKE_RUN=0 -sENVIRONMENT=web -sINCOMING_MODULE_JS_API=printErr,onAbort,onRuntimeInitialized,instantiateWasm" \
+    LDFLAGS="--js-transform $ROOT/apply_template.sh -sINVOKE_RUN=0 -sENVIRONMENT=web -sINCOMING_MODULE_JS_API=arguments,printErr,onAbort,onRuntimeInitialized,instantiateWasm" \
     EXEEXT=".js" \
     gnuplot
 }

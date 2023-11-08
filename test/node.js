@@ -38,7 +38,9 @@ createGnuplot((importObject, callback) => {
       exitCode++;
     }
   }
-}).catch(() => {
+}).catch((e) => {
   console.error('...Failed\n');
+  console.error(e.message);
+  console.error(e.stack);
   exitCode++;
 }).finally(() => exit(exitCode));
